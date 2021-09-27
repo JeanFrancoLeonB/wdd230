@@ -25,18 +25,23 @@ padding-right: 0;
 }
 header img {
     max-width: 200px;
-    float: right;
-    margin-top: 5px;
-    margin-right: 10px;
-    border-radius: 15px;
-    box-shadow: 8px 8px 8px #444;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
+/*ain ul li::before{
+    content: '/9989';
+}*/
 h1{
 text-align: center;
 margin-left: 85px;
-font-size: 2.4rem;
+font-size: 1.4rem;
 color: rgb(243, 243, 245);
 }
+h2{
+    font-size: 1rem;
+    color: rgb(50, 50, 114);
+    }
 footer{
     margin-top: 10px;
     padding: 5px;
@@ -46,4 +51,5 @@ footer{
 p{
     color: rgb(50, 50, 114);
     font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
 }
