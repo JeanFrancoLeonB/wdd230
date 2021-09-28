@@ -17,26 +17,47 @@ main section {
 }
 main section h2{
     background-color: rgb(1, 1, 44);
-    padding: 0.5rem;
+    padding: 0.2rem;
     border-radius: 10px;
-    margin-top: 5px;
-
+    margin: 5px 0px 5px 0;
 }
 main section img {
     width: 100%;
     height: auto;
     border: 1px solid #bbb;
 }
+main section h3{
+    margin: 5px 0px 5px 0;
+}
+main section p{
+    margin: 5px 0px 10px 0;
+}
 header{
     background-color: rgb(13, 13, 99);
-    padding: 1.01rem;
+    padding: 8px;
     }
+footer{
+        background-color: rgb(13, 13, 99);
+        padding: 1.01rem;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        color: rgb(243, 243, 245);
+     }
+footer a{
+    color: rgb(243, 243, 245);
+}
 h1{
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
     color: rgb(243, 243, 245);
-        }
+    margin: 5px 0px 10px 0;
+ }
 h2{
     text-align: center;
     color: rgb(243, 243, 245);
+    margin: 5px 0px 5px 0;
+ }
+ p{
+    font-family: 'Source Sans Pro', sans-serif;
  }
     
