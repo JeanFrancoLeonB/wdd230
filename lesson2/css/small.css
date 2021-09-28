@@ -1,0 +1,42 @@
+html{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+	margin: 0 auto;
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+    border-radius: 10px;
+	background-color: #eee;
+}
+main section h2{
+    background-color: rgb(1, 1, 44);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+main section img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+}
+header{
+    background-color: rgb(13, 13, 99);
+    padding: 1.01rem;
+    }
+h1{
+    text-align: center;
+    color: rgb(243, 243, 245);
+        }
+h2{
+    text-align: center;
+    color: rgb(243, 243, 245);
+ }
+    
