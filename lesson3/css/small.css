@@ -111,7 +111,14 @@ li {
     font-weight: bold;
  }
  .typographytable tr td{
- margin: 5px;
+    margin: 5px;
+    padding: 10PX;
+}
+.fontserif{
+    font-family: 'Libre Baskerville', serif;
+}
+.fontsansserif{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
     text-align: center;
