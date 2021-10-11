@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Preston Sports Weather Site</title>
+  <meta name="description" content="My Sports Weather Channel with Preston Town Page">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+  <script defer src ="/js/dates.js"></script>
+  <script defer src ="/lesson4/js/currentday.js"></script>
+  <script defer src ="/lesson4/js/togglemenu.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Sports Weather Site Logo">
+    <div>
+    <h1> My Sports Weather Site</h1>
+    <h2>Site Plan</h2>
+    </div>
+  </header>
+  <nav clas ="clearfix">
+    <button onclick="toggleMenu()"> &#9776; </button>
+    <ul id ="primaryNav"></ul>
+    <ul class="navigation">
+        <li><a href="/lesson3/index.html" >Home</a></li>
+        <li ><a href="preston-4.html" >Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+  <main>
+  <h2>Preston Idaho </h2>
+  <div class="contentbox">Weather Summary</div>
+  <div class="contentbox">7 Days Forecast</div>
+  <div class="contentbox">Article</div>
+  <div class="contentbox">Contact Information</div>
+  </main>
+  <footer>
+    &copy; <span id="copyrightyear"></span>  | Franco León | Trujillo - Perú |
+    <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+    <div><span id="today"></span></div> 
+  </footer>
+</body>
+</html>
