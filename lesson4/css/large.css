@@ -1,7 +1,7 @@
 @media only screen and (min-width :  60em){
     .contentbox{
         border: 1px dashed;
-        font-style: bold;
+        font-weight: bold;
         font-family: 'Source Sans Pro', sans-serif;
         color: rgb(41, 173, 162);
         font-size: 1.4rem;
