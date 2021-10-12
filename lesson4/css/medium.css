@@ -12,7 +12,11 @@
     }
     .navigation li {
         display: block;
+        flex: 1 1 100%;
     }
+    .navigation li:first-child {
+        display: none;
+	}
     .navigation a {
         text-align: center;
         color: rgb(243, 243, 245);

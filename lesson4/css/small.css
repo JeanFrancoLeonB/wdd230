@@ -25,13 +25,15 @@ main h2{
     padding: 0;
     margin: 0;
 }
-.navigation a:hover {
-    background-color: rgb(135, 135, 204);
+.navigation li{
+    display: none;
+}
+.navigation li:first-child {
+    display: block;
 }
 li .active {
     color: yellow;
 }
-
 .navigation a {
     display: block;
     text-align: center;
@@ -39,11 +41,13 @@ li .active {
     padding: .6rem 1rem;
     text-decoration: none;
 }
-nav button{
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
+.navigation a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+.responsive li{
+    display: block;
 }
 .contentbox{
     margin: 10px auto;
