@@ -19,12 +19,6 @@
 	}
     .navigation a {
         text-align: center;
-        color: rgb(243, 243, 245);
-        padding: .6rem 1rem;
-        text-decoration: none;
-    }
-    .active {
-        color: yellow;
     }
     h1{
         font-size: 2.4rem;
