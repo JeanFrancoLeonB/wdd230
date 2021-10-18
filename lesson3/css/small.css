@@ -96,7 +96,7 @@ li {
 .colortable th, td {
     width: 20%;
  }
- .typographytable{
+ table{
     border: 1px solid #000;
     border-collapse: collapse;
     justify-content: center;

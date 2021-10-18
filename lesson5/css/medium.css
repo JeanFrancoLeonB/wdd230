@@ -36,8 +36,12 @@
     .historyhco img{
         grid-column: 2/3;
         grid-row: 2/2;
-        height: 230px;
-        width: 100%;
+    }
+    .days{
+        display: block;
+    }
+    .hcogps{
+        display: block;
     }
     h1{
         font-size: 2.4rem;
