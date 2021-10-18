@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Preston Sports Weather Site</title>
+  <meta name="description" content="My Sports Weather Channel with Preston Town Page">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,700&display=swap"
+    rel="stylesheet">
+  <script defer src="js/dates.js"></script>
+  <script defer src="js/currentday.js"></script>
+  <script defer src="js/togglemenu.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Sports Weather Site Logo">
+    <div>
+      <h1> My Sports Weather</h1>
+      <h2>Motto</h2>
+    </div>
+  </header>
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="preston-4.html" class="active">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Preston Idaho </h2>
+    <div class="herodiv">
+      <img src="IMAGES/hco.jpg" alt="Huanchaco Beach image">
+      <section class="stats">
+        <h2>Weather Summary</h2>
+        <p>Currently: <span id="currently">Sunny</span></p>
+        <p>High: <span id="high">76°F</span></p>
+        <p>Wind Chill: <span id="wind">°F</span></p>
+        <p>Humidity: <span id="humidity">69%</span></p>
+        <p>Wind Speed: <span id="wind">5 mph</span></p>
+      </section> </div>
+      <section class="historyhco">
+        <h2>Huanchaco History</h2>
+        <p> Huanchaco's original population were indigenous fishermen, who worshipped the moon and a golden fish
+          called Huaca Taska. Some accounts suggest the name "Huanchaco" originate from "Gua-Kocha, a Quechua word
+          meaning "beautiful lake". During the period of the Chimú culture, 800 to 1400, Huanchaco was the port for
+          Chan Chan, which was established 4 km away. It was also the main port during Moche period, and was described
+          by Inca Garcilaso de la Vega as the preferred port of the Incas.
+          Archaeologists led by Gabriel Prieto revealed the largest mass child sacrifice with more than 140 children
+          skeleton
+          and 200 Llamas dating to the Chimú culture after he was informed about some children had found bones in a dune
+          nearby
+          Prieto’s fieldwork in 2011. </p>
+          <img  src="images/pelicanohco.JPG" alt="Huanchaco Animal Image">
+      </section>
+  </main>
+  <footer>
+    <img src="images/maps.png" alt="Huanchaco Ubication">
+
+    &copy; <span id="copyrightyear"></span> | Franco León | Trujillo - Perú |
+    <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+    <div><span id="today"></span></div>
+  </footer>
+</body>
+</html>
