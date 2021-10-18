@@ -9,9 +9,15 @@ header{
     justify-items: center;
     align-items: center;
     }
+    
 header img{
     padding-left: 25px;
     width : 100px;
+}
+.getdayfriday{
+    background-color: darkkhaki;
+    font-weight: bold
+
 }
 main{
     display: block;
