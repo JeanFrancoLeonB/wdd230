@@ -43,6 +43,9 @@
     .hcogps{
         display: block;
     }
+    .hcogps img{
+        width: 400px;
+    }
     h1{
         font-size: 2.4rem;
     }
