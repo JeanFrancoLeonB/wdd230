@@ -23,9 +23,10 @@ const input = document.querySelector('input');
                 console.log(p);
                 p.style.display = 'none';
                 deleteBtn.addEventListener('click',function() {
-                list.removeChild(listItem);    
+                list.removeChild(listItem)
+                input.focus();    
             })
             }
         input.focus();
         input.value = "";
-        })
+         })
