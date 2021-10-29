@@ -45,7 +45,12 @@
   <main>
     <h2>Preston Idaho </h2>
     <div class="herodiv">
-      <img src="images/hco.jpg" alt="Huanchaco Beach image">
+      <picture>
+        <source srcset="images/heroimage-small.jpg" media="(max-width:450px)" />
+        <source srcset="images/heroimage-medium.jpg" media="(max-width:700px)" />
+        <source srcset="images/heroimage-large.jpg" media="(max-width:1000px)" />
+        <img class="heroimg" src="images/heroimage-large.jpg" alt="Sky, a mountain, and valley" />
+      </picture>
       <section class="stats">
         <h2>Weather Summary</h2>
         <p>Currently: <span id="currently">Sunny</span></p>
@@ -109,12 +114,9 @@
       <img src="images/email.jpg" alt="email icon">
       <p>francoleon@byui.com</p>
       <div class="links">
-        <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png"
-            alt="facebook icon"></a>
-        <a target="_blank" href="https://www.youtube.com//"><img src="images/youtube.jpg"
-            alt="youtube icon"></a>
-        <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.jpg"
-            alt="instagram icon"></a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+        <a target="_blank" href="https://www.youtube.com//"><img src="images/youtube.jpg" alt="youtube icon"></a>
+        <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.jpg" alt="instagram icon"></a>
       </div>
     </section>
     <div class="data">
