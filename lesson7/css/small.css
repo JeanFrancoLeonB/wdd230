@@ -78,10 +78,7 @@ figcaption {
     width: 100%;
      height: auto;
     }
-    .container img:hover {
-        box-shadow: 0 0 50px #000;
-    }
-
+  
 footer{
         background-color: rgb(13, 13, 99);
         padding: 1.01rem;
