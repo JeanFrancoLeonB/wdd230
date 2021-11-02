@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Preston Sports Weather Site</title>
+    <meta name="description" content="My Sports Weather Channel with Preston Town Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/currentday.js"></script>
+    <script defer src="js/togglemenu.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/webfont.js"></script>
+</head>
+<body>
+    <div class="getdayfriday">
+        <p>Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion!</p>
+    </div>
+    <header>
+        <img src="images/logo.png" alt="Sports Weather Site Logo">
+        <div>
+            <h1> My Sports Weather</h1>
+            <h2>Motto</h2>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery-7.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="container">
+            <figure>
+                <img src="images/placeholder.png" data-src="images/coldmountain.jpeg" alt="a cold mountain">
+                <figcaption> A Cold Mountain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/forestice.jpeg" alt="a forest ice">
+                <figcaption> A Forest Ice</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/icelake.jpeg" alt="a ice lake">
+                <figcaption> An Ice Lake</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/lakemountain.jpeg" alt="a lake mountain">
+                <figcaption> A Lake Mountain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/lights.jpeg" alt="lights">
+                <figcaption>Lights on the Cieling</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/meininriver.jpeg" alt="a main river">
+                <figcaption> A Wonderful River</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/path.jpeg" alt="a path">
+                <figcaption> A Path to Walk</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/sunforest.jpeg" alt="a sun forest">
+                <figcaption> A Sun Forest </figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.png" data-src="images/waystoroad.jpeg" alt="ways to road">
+                <figcaption> A Highway to Road</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <picture class="hcogps">
+            <img src="images/maps.png" alt="Huanchaco Ubication">
+        </picture>
+        <section class="contactinfo">
+            <h3>Southeast Idaho Local</h3>
+            <img src="images/ubication.png" alt="ubication icon">
+            <p>309 Bartolome de las Casas <br>San Jose de California-Trujillo</p>
+            <img src="images/phone.png" alt="mobile phone icon">
+            <p> (051) 044-200298</p>
+            <img src="images/email.jpg" alt="email icon">
+            <p>francoleon@byui.com</p>
+            <div class="links">
+                <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png"
+                        alt="facebook icon"></a>
+                <a target="_blank" href="https://www.youtube.com//"><img src="images/youtube.jpg"
+                        alt="youtube icon"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.jpg"
+                        alt="instagram icon"></a>
+            </div>
+        </section>
+        <div class="data">
+            &copy; <span id="copyrightyear"></span> | Franco León | Trujillo - Perú |
+            <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <div><span id="lastupdated"></span></div>
+            <div><span id="today"></span></div>
+        </div>
+    </footer>
+</body>
+</html>
