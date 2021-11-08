@@ -1,0 +1,16 @@
+@media only screen and (min-width :  60em){
+    .contentbox{
+        border: 1px dashed;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(41, 173, 162);
+        font-size: 1.4rem;
+    }
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container img:hover {
+        box-shadow: 0 0 50px #000;
+    }
+
+}
