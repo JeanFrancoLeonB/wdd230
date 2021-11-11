@@ -157,3 +157,80 @@ h2{
      display: table;
      clear: both;
  }
+ form fieldset {
+    margin: 3rem 0;
+    background-color:rgb(13, 13, 99);
+    box-shadow: 0 0 0.1rem 0.1rem #000;
+    border: 1px transparent;
+    border-radius: 10px;
+  }
+ form legend {
+    color: #024059;
+    position: relative;
+    top: -1rem;
+    font-weight: bold;
+  }
+  form label.top, form div {
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #011C26;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #011C26;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  form label.sbs {
+    display: block;
+    padding: .1rem 0;
+    color: #011C26;
+  }
+  form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #024059;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 200px;
+    margin: 0 auto;
+    
+  }
+  form label.top input:required{
+    border-left: #d9734e solid 6px;
+  }
+  form label.top input:required:valid { 
+    border-left: 6px solid #77bdd9;
+  }
+  form label.stormrating input {    
+    display: block;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .stormCenter {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .stormCenter h2{
+    margin: 40px 0 0 0 ;
+    padding: 0;
+  }
+   .stormCenter h3{
+     margin: 0;
+     padding: 0;
+     text-align: center;
+  }

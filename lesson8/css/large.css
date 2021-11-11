@@ -12,5 +12,8 @@
     .container img:hover {
         box-shadow: 0 0 50px #000;
     }
+    form label.danger {
+        padding: .2rem 0;
+      }
 
 }
