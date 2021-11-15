@@ -161,7 +161,7 @@ h2{
     margin: 3rem 0;
     background-color:rgb(13, 13, 99);
     box-shadow: 0 0 0.1rem 0.1rem #000;
-    border: 1px transparent;
+    border: 1px;
     border-radius: 10px;
   }
  form legend {
@@ -170,7 +170,7 @@ h2{
     top: -1rem;
     font-weight: bold;
   }
-  form label.top, form div {
+  form label.top,form label.stormrating, form div {
     display: block;
     margin-bottom: 20px;
     color: #fff;
@@ -178,7 +178,7 @@ h2{
   }
   
   form label.top input, form label.top select, form label.top textarea {
-    -webkit-appearance: none;
+
     display: block;
     font-size: 1rem;
     border: 1px solid #011C26;
@@ -207,30 +207,15 @@ h2{
   form label.top input:required{
     border-left: #d9734e solid 6px;
   }
-  form label.top input:required:valid { 
-    border-left: 6px solid #77bdd9;
-  }
-  form label.stormrating input {    
+  
+ form label.stormrating input {    
     display: block;
     padding: 0;
     width: 100%;
     margin-bottom: 20px;
+
   }
   form {
     margin: 0 auto;
     max-width: 320px;
-  }
-  .stormCenter {
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
-  .stormCenter h2{
-    margin: 40px 0 0 0 ;
-    padding: 0;
-  }
-   .stormCenter h3{
-     margin: 0;
-     padding: 0;
-     text-align: center;
   }
