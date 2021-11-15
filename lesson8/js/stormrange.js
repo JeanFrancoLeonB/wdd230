@@ -1,3 +1,3 @@
 function adjustRating(rating) {
-  document.querySelector('ratingvalue').textContent = rating;
+  document.querySelector('.ratingvalue').textContent = rating;
 }
