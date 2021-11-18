@@ -37,7 +37,7 @@
     .historyhco img{
         grid-column: 2/3;
         grid-row: 2/2;
-        height: 230 px;
+        height: 230px;
         width: 100%;
     }
     .days{
