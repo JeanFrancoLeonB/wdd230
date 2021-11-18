@@ -32,10 +32,13 @@
     .historyhco p{
         grid-column: 1/2;
         grid-row: 2/2;
+      
     }
     .historyhco img{
         grid-column: 2/3;
         grid-row: 2/2;
+        height: 230 px;
+        width: 100%;
     }
     .days{
         display: block;
@@ -59,4 +62,27 @@
     form {
         max-width: 460px;
       }
+      .jsonsections  section {
+        max-width: 600px;
+        margin: .5rem auto;
+        background-color: rgb(13, 13, 99);
+        color: rgb(243, 243, 245);
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+      
+      .jsonsections section img {
+        width: 300px; 
+        height: auto;
+    }
+    .jsonsections section div {
+        width: 300px; 
+        height: auto;
+    }
+    .jsonsections section:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+   
 }

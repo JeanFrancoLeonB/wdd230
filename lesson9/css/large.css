@@ -15,5 +15,38 @@
     form label.danger {
         padding: .2rem 0;
       }
-
+      div.jsonsections {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin: 0;
+      }
+      .jsonsections section {
+        flex-direction: column;
+        background-color: rgb(13, 13, 99);
+        color: rgb(243, 243, 245);
+        border-radius: 12px;
+        box-shadow: 0 8px 18px rgba(2, 64, 89, 0.4);
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 0 0 10px;
+      }
+      .jsonsections section div {
+        padding: 0.5rem;
+        text-align: center;
+      }
+      .jsonsections section img {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .jsonsections section:nth-child(even) {
+        flex-direction: column;
+      }
+      .jsonsections h5 {
+        font-style: italic;
+      }
+      
 }
