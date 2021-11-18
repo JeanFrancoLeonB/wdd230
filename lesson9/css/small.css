@@ -165,3 +165,25 @@ h2{
      clear: both;
  }
  
+ .jsonsections section {
+    
+    margin: 0 auto;
+    background-color: rgb(13, 13, 99);
+     color: rgb(243, 243, 245);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(2, 64, 89, 0.4);
+    
+  }
+  
+  .jsonsections section img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+   
+  }
+  .jsonsections section h3,h5,p {
+    text-align: center;
+    height: 22px;
+  }
+  
