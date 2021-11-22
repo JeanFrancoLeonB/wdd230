@@ -19,6 +19,8 @@
   <script defer src="js/togglemenu.js"></script>
   <script defer src="js/banner.js"></script>
   <script defer src="js/windchill.js"></script>
+  <script defer src="js/json.js"></script>
+  <script defer src="js/json2.js"></script>
   <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script defer src="js/webfont.js"></script>
 </head>
@@ -65,29 +67,32 @@
     </div>
     <div class="days">
       <h3>5 Day Forecast</h3>
-      <table>
-        <tr>
-          <th>Mon</th>
-          <th>Tue</th>
-          <th>Wed</th>
-          <th>Thur</th>
-          <th>Fri</th>
-        </tr>
-        <tr>
-          <td><img src="images/sunny.png" alt="sunny"></td>
-          <td><img src="images/sunny.png" alt="sunny"></td>
-          <td><img src="images/snowy.png" alt="snowy"></td>
-          <td><img src="images/snowy.png" alt="snowy"></td>
-          <td><img src="images/sunny.png" alt="sunny"></td>
-        </tr>
-        <tr>
-          <td> 72 &#8457;</td>
-          <td> 72 &#8457;</td>
-          <td> 68 &#8457;</td>
-          <td> 70 &#8457;</td>
-          <td> 72 &#8457;</td>
-        </tr>
-      </table>
+      <div class="flex">
+        <div class="forecastdays">
+          <span class="weekday" id="weekday1"></span>
+          <img src="" alt="" id="icon1">
+          <span class="data" id="ftemp1">°F</span>
+        </div>
+        <div class="forecastdays">
+          <span class="weekday" id="weekday2"></span>
+          <img src="" alt="" id="icon2">
+          <span class="data" id="ftemp2">°F</span>
+        </div>
+        <div class="forecastdays">
+          <span class="weekday" id="weekday3"></span>
+          <img src="" alt="" id="icon3">
+          <span class="data" id="ftemp3">°F</span>
+        </div>
+        <div class="forecastdays">
+          <span class="weekday" id="weekday4"></span>
+          <img src="" alt="" id="icon4">
+          <span class="data" id="ftemp4">°F</span>
+        </div>
+        <div class="forecastdays">
+          <span class="weekday" id="weekday5"></span>
+         <img src="" alt="" id="icon5">
+          <span class="data" id="ftemp5">°F</span>
+        </div>
     </div>
     <section class="historyhco">
       <h2>Huanchaco History</h2>
