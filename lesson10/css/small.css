@@ -105,6 +105,9 @@ th{
     padding: 15px 0 15px 0;
     
  }
+ .tabledays{
+     display:none;
+ }
  
 footer{
         background-color: rgb(13, 13, 99);

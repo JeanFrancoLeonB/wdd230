@@ -52,4 +52,40 @@
     h2{
         font-size: 1.5rem;
     }
+    .days{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .days h3{
+        color: #fff;
+        text-align: center;
+    }
+    .tabledays{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px auto;
+    border-right: 1px solid rgba(223, 144, 120, 0.425);
+    box-shadow: 0 0 5px #333;
+    }
+    .weatherdays{
+        flex: 1 1 auto;
+        border-bottom: 1px solid rgba(223, 144, 120, 0.425);
+        border-left: 1px solid rgba(223, 144, 120, 0.425);
+        text-align: center;
+    }
+    .weekday {
+        display: block;
+        padding: 5px;
+        background-color: rgb(13, 13, 99);
+        color: #fff;
+        border-bottom: 1px solid rgba(223, 144, 120, 0.425);
+        border-top: 1px solid rgba(223, 144, 120, 0.425);
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .temp{
+        padding-top:10px;
+    }
+    
 }
