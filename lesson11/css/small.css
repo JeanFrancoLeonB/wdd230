@@ -77,6 +77,8 @@ h1, h2, p {
 }
 .historyhco{
     display: block;
+    box-shadow: 20px 0 30px 0 teal;
+    margin-bottom: 40px;
 }
 .historyhco img{
     width: 100%;
@@ -163,4 +165,41 @@ h2{
      display: table;
      clear: both;
  }
+ .jsonsections{
+    margin-bottom: 50px;
+}
+ .jsonsections section h2{
+    background-color: rgb(13, 13, 99);
+    color: rgb(243, 243, 245);
+    border-bottom: 4px solid #098286;
+    padding: 10px 0 10px;
+  }
+  .jsonsections section h2:hover {
+    color: rgb(0, 255, 213);
+}
+  .jsonsections section h3{
+    padding: 10px 0 8px;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+  }
+  .jsonsections section p{
+    padding: 3px 0 10px;
+  }
+  .jsonsections section {
+    
+    margin: 0 auto;
+    background-color: rgb(13, 13, 99);
+     color: rgb(243, 243, 245);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(2, 64, 89, 0.4);
+    text-align: center;
+  }
+  
+  .jsonsections section img {
+    width: 100%;
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+  }
+ 
     
