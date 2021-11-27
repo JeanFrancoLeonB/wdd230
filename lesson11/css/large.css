@@ -6,4 +6,59 @@
         color: rgb(41, 173, 162);
         font-size: 1.4rem;
     }
+    div.jsonsections {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        margin: 0; 
+      }
+      .jsonsections section {
+        flex-direction: column;
+        background-color: rgb(13, 13, 99);
+        color: rgb(243, 243, 245);
+        border-radius: 12px;
+        box-shadow: 0 8px 18px rgba(2, 64, 89, 0.4);
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 0 0 10px;
+        width: 320px;
+        align-items: center;
+        justify-items: center;
+      }
+      .jsonsections section h2{
+        background-color: rgb(13, 13, 99);
+        color: rgb(243, 243, 245);
+        border-bottom: 4px solid #098286;
+        padding: 0 0 2px;
+      }
+      .jsonsections section h2:hover {
+        color: rgb(0, 255, 213);
+    }
+      .jsonsections section h3{
+        padding: 10px 0 8px;
+        font-size: small;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+      }
+      .jsonsections section p{
+        padding: 3px 0 10px;
+      }
+      .jsonsections section div {
+        padding: 0.5rem;
+        text-align: center;
+      }
+      .jsonsections section img {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .jsonsections section:nth-child(even) {
+        flex-direction: column;
+      }
+      .jsonsections h5 {
+        font-style: italic;
+      }
 }

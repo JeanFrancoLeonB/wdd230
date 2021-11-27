@@ -9,16 +9,16 @@ fetch(requestURL)
         highcountry.forEach(highcountry => {
             let towninfo = document.createElement('section');
             let bioinfo = document.createElement('div');
+            let h2 = document.createElement('h2');
             let h3 = document.createElement('h3');
-            let h5 = document.createElement('h5');
             let founding = document.createElement('p');
             let pop = document.createElement('p');
             let annualRain = document.createElement('p');
             let image = document.createElement('img');
 
             towninfo.innerHTML = `<span class="towninfogrid></span>`;
-            h3.innerHTML = `<span class="info">${highcountry.name}</span>`;
-            h5.innerHTML= `<span class="info">${highcountry.motto}</span>`;
+            h2.innerHTML = `<span class="info">${highcountry.name}</span>`;
+            h3.innerHTML= `<span class="info">${highcountry.motto}</span>`;
             founding.innerHTML= `<span class="info">Year Founded: ${highcountry.yearFounded}</span>`;
             pop.innerHTML= `<span class="info">Population: ${highcountry.currentPopulation}</span>`;
             annualRain.innerHTML= `<span class="info">Annual Rain Fall: ${highcountry.averageRainfall}</span>`;
@@ -27,8 +27,8 @@ fetch(requestURL)
             
 
             towninfo.appendChild(bioinfo);
+            bioinfo.appendChild(h2);
             bioinfo.appendChild(h3);
-            bioinfo.appendChild(h5);
             bioinfo.appendChild(founding);
             bioinfo.appendChild(pop);
             bioinfo.appendChild(annualRain);

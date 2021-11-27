@@ -17,7 +17,7 @@ header img{
 main{
     display: block;
 	margin: 0 auto;
-    text-align: center;
+   
 }
 main h2{
     color: black;
@@ -53,6 +53,7 @@ a.active {
     display: block;
 }
 .herodiv {
+    text-align: center;
     margin: 10px auto;
     position: relative;
 }
@@ -60,9 +61,9 @@ h1, h2, p {
     margin: 0;
 }
 .herodiv img {
-  width: 99%;
-  margin-left: auto;
-    margin-right: auto;
+    
+    width: 99%;
+    box-shadow: 2px 1px 1px 0.5px #333;
 }
 .stats {
 	position: absolute;
@@ -78,7 +79,6 @@ h1, h2, p {
     display: block;
 }
 .historyhco img{
-    height: 230px;
     width: 100%;
 }
 .days{
