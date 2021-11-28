@@ -13,7 +13,10 @@ header{
 header img{
     width : 100px;
 }
-
+.getdayfriday{
+    background-color: darkkhaki;
+    font-weight: bold
+}
 main{
     display: block;
 	margin: 0 auto;
@@ -30,6 +33,51 @@ main h2{
 .navigation li{
     display: none;
 }
+/*Gallery*/
+.wgallery{
+    padding:20px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.wgallery:hover {
+    color: rgb(0, 255, 213);
+}
+img[data-src] {
+    filter: blur(0.2em);
+}
+ figure {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.container {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    gap: 5px;
+  }
+  .container img:hover {
+    box-shadow: 0 0 50px #000;
+}
+figcaption {
+    text-align: center;
+    padding:15px;
+  }
+  figure img { 
+    width: 100%;
+     height: auto;
+    }
+  /*Gallery*/
+footer{
+        background-color: rgb(13, 13, 99);
+        padding: 1.01rem;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+        color: rgb(243, 243, 245);
+        display: grid;
+        grid-template-columns: 0.8fr 0.6fr;
+        grid-auto-rows: 1fr 0.2fr;
+     }
 .navigation li:first-child {
     display: block;
 }

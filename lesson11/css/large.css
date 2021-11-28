@@ -61,4 +61,8 @@
       .jsonsections h5 {
         font-style: italic;
       }
+      .container {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
