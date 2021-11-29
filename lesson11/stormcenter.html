@@ -44,19 +44,19 @@
         </ul>
     </nav>
     <main>
-        <h2>Storm Center</h2>
+        <h2 class="wgallery">Storm Center</h2>
         <form method="get" action="thanks.html">
             <fieldset>
               <legend>Contact Information</legend>
-              <label class="top"> Full Name <input type="text" name="fullname" required pattern="[A-Za-z]"></label>
-              <label class="top"> Email <input type="email" name="email" placeholder="example@gmail.com"></label>
-              <label class="top"> Phone <input required type="tel" name="phone" placeholder="555-555555"></label>
-              <label class="top"> Zip Code <input required type="number" name="number" ></label>
+              <label class="top"> <p>Full Name</p> <input type="text" name="fullname" required pattern="[A-Za-z]"></label>
+              <label class="top"> <p>Email </p><input type="email" name="email" placeholder="example@gmail.com"></label>
+              <label class="top"> <p>Phone </p><input required type="tel" name="phone" placeholder="555-555555"></label>
+              <label class="top"> <p>Zip Code</p> <input required type="number" name="number" ></label>
             </fieldset>
             <fieldset>
               <legend>Storm Information</legend>
-              <label class="top">When the storm occur? <input type="date" name="datestorm"> </label>
-              <label class="top">Storm type <input list="typeofstorm" name="stormtype">
+              <label class="top"><p>When the storm occur?</p> <input type="date" name="datestorm"> </label>
+              <label class="top"><p>Storm type </p><input list="typeofstorm" name="stormtype">
                 <datalist id="typeofstorm">
                   <option value="Flash"></option>
                   <option value="Flood"></option>
@@ -65,7 +65,7 @@
                   <option value="Tornado"></option>
                 </datalist>
               </label>
-              <label class="stormrating">Storm Severity : <span class="ratingvalue">5</span>
+              <label class="stormrating">Storm Severity :<span class="ratingvalue">5</span>
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                   oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 <datalist id="tickmarks">
@@ -82,7 +82,7 @@
                   <option value="10">
                 </datalist>
               </label>
-              <label class="top">Storm Region
+              <label class="top"><p>Storm Region</p>
                 <select name="subject">
                   <option value="" disabled="" selected="">Select Region &#9662;</option>
                   <option value="preston">Preston</option>
@@ -91,12 +91,12 @@
                 </select>
               </label>
               <div>
-                Are you in danger?
+                <p>Are you in danger?</p>
                 <label class="danger"><input type="radio" name="danger" value="yes"> Yes</label>
                 <label class="danger"><input type="radio" name="danger" value="maybe"> Maybe</label>
                 <label class="danger"><input type="radio" name="danger" value="no"> No</label>
               </div>
-              <label class="top">Comments
+              <label class="top"><p>Comments</p>
                 <textarea name="comment" rows="5"></textarea></label>
             </fieldset>
             <input type="submit" value="Report My Storm" class="submitbutton">

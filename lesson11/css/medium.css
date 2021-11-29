@@ -122,4 +122,11 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
+    form {
+        max-width: 460px;
+      }
+      legend{
+          font-size: 1.2em;
+          padding: 5px 0 20px;
+      }
 }

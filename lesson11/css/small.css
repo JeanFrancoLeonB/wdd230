@@ -253,7 +253,7 @@ h2{
  /*HomePage*/
   /*Stormcenter*/
   form fieldset {
-    margin: 3rem 0;
+    margin: 1.5rem 0;
     background-color:rgb(13, 13, 99);
     box-shadow: 0 0 0.1rem 0.1rem #000;
     border: 1px;
@@ -261,6 +261,7 @@ h2{
   }
  form legend {
     color: #024059;
+    padding: 5px 0 10px;
     position: relative;
     top: -1rem;
     font-weight: bold;
@@ -271,9 +272,10 @@ h2{
     color: #fff;
     font-size: 1rem;
   }
-  
+  label p, div p{
+    padding: 0px 0 13px;
+  }
   form label.top input, form label.top select, form label.top textarea {
-
     display: block;
     font-size: 1rem;
     border: 1px solid #011C26;
@@ -283,32 +285,33 @@ h2{
     box-sizing: border-box;
     width: 100%;
   }
-  form label.sbs {
+  form label.danger {
     display: block;
-    padding: .1rem 0;
-    color: #011C26;
+    padding: 10px 0 5px;
+    color: white;
   }
-  form input.submitBtn {
+  form input.submitbutton {
     display: block;
-    border: none;
-    background-color: #024059;
+    background-color:rgb(13, 13, 99);
+    border: 1px solid #011C26;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
+    padding: 10px 0 10px 0;
     width: 200px;
-    margin: 0 auto;
-    
+    margin: 20px auto;
   }
+  .submitbutton:hover {
+    color: rgb(0, 255, 213);
+    box-shadow: 10px 15px 15px rgba(2, 64, 89, 0.4);
+    }
   form label.top input:required{
     border-left: #d9734e solid 6px;
   }
-  
  form label.stormrating input {    
     display: block;
-    padding: 0;
+  
     width: 100%;
     margin-bottom: 20px;
-
   }
   form {
     margin: 0 auto;
