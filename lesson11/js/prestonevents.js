@@ -9,20 +9,20 @@ fetch(requestURL)
         const currentTown = towns.filter((towns) => towns.name === 'Preston');
         currentTown.forEach(currentTown => {
             let preston = document.createElement('div');
-            let eventOne = document.createElement('p');
-            let eventTwo = document.createElement('p');
-            let eventThree = document.createElement('p');
+            let event1 = document.createElement('p');
+            let event2 = document.createElement('p');
+            let event3 = document.createElement('p');
 
-            preston.className = 'eventcontainer';
-            eventOne.innerHTML = `${currentTown.events[0]}`;
-            eventTwo.innerHTML = `${currentTown.events[1]}`;
-            eventThree.innerHTML = `${currentTown.events[2]}`;
+            preston.className = 'localevent';
+            event1.innerHTML = `${currentTown.events[0]}`;
+            event2.innerHTML = `${currentTown.events[1]}`;
+            event3.innerHTML = `${currentTown.events[2]}`;
 
-            preston.appendChild(eventOne);
-            preston.appendChild(eventTwo);
-            preston.appendChild(eventThree);
+            preston.appendChild(event1);
+            preston.appendChild(event2);
+            preston.appendChild(event3);
 
-            document.querySelector('div.localevents').appendChild(preston);
+            document.querySelector('div.upcomingevents').appendChild(preston);
 
         });
     });
