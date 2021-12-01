@@ -32,100 +32,91 @@
   <header>
     <img src="images/logo.png" alt="Sports Weather Site Logo">
     <div>
-        <h1> My Sports Weather</h1>
-        <h2>Fun exercise, safe training</h2>
+      <h1> My Sports Weather</h1>
+      <h2>Fun exercise, safe training</h2>
     </div>
   </header>
   <nav class="clearfix">
     <ul class="navigation">
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="preston.html" class="active">Preston</a></li>
-        <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>
-        <li><a href="stormcenter.html" >Storm Center</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="preston.html" class="active">Preston</a></li>
+      <li><a href="sodasprings.html">Soda Springs</a></li>
+      <li><a href="fishhaven.html">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
     </ul>
   </nav>
   <main>
     <div class="herodiv">
-        <div class="herodiv">
-            <img class="heroimg" src="images/prestonall.jpg" alt="Preston Idaho" />
+      <div class="herodiv">
+        <img class="heroimg" src="images/prestonall.jpg" alt="Preston Idaho" />
+      </div>
+      <section class="stats">
+        <h3>Weather Summary</h3>
+        <div class="statsgrid">
+          <span>Conditions:</span><span id="condition"></span>
+          <span>Temperature:</span> <span> <span id="current-temp"></span>°F</span>
+          <span>Wind Chill:</span> <span> <span class="windchill"></span></span>
+          <span>Humidity:</span> <span> <span id="humidity"></span>%</span>
+          <span>Wind Speed:</span> <span> <span id="wind-speed"></span> mph</span>
         </div>
-        <section class="stats">
-            <h3 class="summarytitle">Weather Summary</h3>
-            <div class="summarygrid">
-                <span class="sumleft">Conditions:</span>
-                <span class="sumright" id="condition"></span>
-                <span class="sumleft">Temperature:</span>
-                <span class="sumright">
-                    <span id="current-temp"></span>°F</span>
-                <span class="sumleft">Wind Chill:</span>
-                <span class="sumright">
-                    <span class="windchill"></span></span>
-                <span class="sumleft">Humidity:</span>
-                <span class="sumright">
-                    <span id="humidity"></span>%</span>
-                <span class="sumleft">Wind Speed:</span>
-                <span class="sumright">
-                    <span id="wind-speed"></span> mph</span>
-             </div>
-        </section>
+      </section>
     </div>
-    
-      <div class="tabledays">
-        <div class="weatherdays">
-          <span class="weekday" id="weekday1"></span>
-          <img src="#" alt="#" id="icon1">
-          <span class="tempe" id="ftemp1">°F</span>
-        </div>
-        <div class="weatherdays">
-          <span class="weekday" id="weekday2"></span>
-          <img src="#" alt="#" id="icon2">
-          <span class="tempe" id="ftemp2">°F</span>
-        </div>
-        <div class="weatherdays">
-          <span class="weekday" id="weekday3"></span>
-          <img src="#" alt="#" id="icon3">
-          <span class="tempe" id="ftemp3">°F</span>
-        </div>
-        <div class="weatherdays">
-          <span class="weekday" id="weekday4"></span>
-          <img src="#" alt="#" id="icon4">
-          <span class="tempe" id="ftemp4">°F</span>
-        </div>
-        <div class="weatherdays">
-          <span class="weekday" id="weekday5"></span>
-         <img src="#" alt="#" id="icon5">
-          <span class="tempe" id="ftemp5">°F</span>
-        </div>
+
+    <div class="tabledays">
+      <div class="weatherdays">
+        <span class="weekday" id="weekday1"></span>
+        <img src="#" alt="#" id="icon1">
+        <span class="tempe" id="ftemp1">°F</span>
+      </div>
+      <div class="weatherdays">
+        <span class="weekday" id="weekday2"></span>
+        <img src="#" alt="#" id="icon2">
+        <span class="tempe" id="ftemp2">°F</span>
+      </div>
+      <div class="weatherdays">
+        <span class="weekday" id="weekday3"></span>
+        <img src="#" alt="#" id="icon3">
+        <span class="tempe" id="ftemp3">°F</span>
+      </div>
+      <div class="weatherdays">
+        <span class="weekday" id="weekday4"></span>
+        <img src="#" alt="#" id="icon4">
+        <span class="tempe" id="ftemp4">°F</span>
+      </div>
+      <div class="weatherdays">
+        <span class="weekday" id="weekday5"></span>
+        <img src="#" alt="#" id="icon5">
+        <span class="tempe" id="ftemp5">°F</span>
       </div>
     </div>
+    </div>
     <div class="upcomingevents">
-        <h3>Upcoming Events</h3>
+      <h3>Upcoming Events</h3>
     </div>
     <section class="historyhco">
-        <img src="images/prestonimg.JPG" alt="Preston Idaho">
-        <h2>Visit Lake on Preston Idaho</h2>
-          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Id semper risus in hendrerit. Sapien faucibus et molestie ac feugiat sed lectus
-            vestibulum mattis. Non consectetur a erat nam at lectus urna duis convallis. Quis imperdiet massa 
-            tincidunt nunc. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Purus sit 
-            amet volutpat consequat mauris nunc. Diam maecenas sed enim ut sem viverra aliquet. Tortor at
-            auctor urna nunc id cursus. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Pretium 
-            vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Nec ullamcorper sit amet risus
-            nullam eget felis.
-            Et tortor at risus viverra. Lobortis mattis aliquam faucibus purus in massa tempor. Dictum fusce
-            ut placerat orci nulla pellentesque dignissim. Quis blandit turpis cursus in hac habitasse. Nullam 
-            vehicula ipsum a arcu cursus vitae congue mauris rhoncus. At imperdiet dui accumsan sit amet nulla.
-            Rhoncus mattis rhoncus urna neque viverra. Potenti nullam ac tortor vitae purus faucibus ornare
-            suspendisse sed. Gravida neque convallis a cras semper auctor neque vitae. Nibh venenatis cras
-            sed felis eget. Amet mattis vulputate enim nulla. Nullam vehicula ipsum a arcu cursus. Aliquam
-            ultrices sagittis orci a scelerisque. Dolor sit amet consectetur adipiscing elit duis tristique
-            sollicitudin. Eget duis at tellus at urna condimentum. Turpis egestas sed tempus urna et pharetra
-            pharetra massa. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Ullamcorper velit 
-            sed ullamcorper morbi tincidunt ornare massa eget. Ut tellus elementum sagittis vitae et.</P>
-      </section>
+      <img src="images/prestonimg.JPG" alt="Preston Idaho">
+      <h2>Visit Lake on Preston Idaho</h2>
+      <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Id semper risus in hendrerit. Sapien faucibus et molestie ac feugiat sed lectus
+        vestibulum mattis. Non consectetur a erat nam at lectus urna duis convallis. Quis imperdiet massa
+        tincidunt nunc. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Purus sit
+        amet volutpat consequat mauris nunc. Diam maecenas sed enim ut sem viverra aliquet. Tortor at
+        auctor urna nunc id cursus. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Pretium
+        vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Nec ullamcorper sit amet risus
+        nullam eget felis.
+        Et tortor at risus viverra. Lobortis mattis aliquam faucibus purus in massa tempor. Dictum fusce
+        ut placerat orci nulla pellentesque dignissim. Quis blandit turpis cursus in hac habitasse. Nullam
+        vehicula ipsum a arcu cursus vitae congue mauris rhoncus. At imperdiet dui accumsan sit amet nulla.
+        Rhoncus mattis rhoncus urna neque viverra. Potenti nullam ac tortor vitae purus faucibus ornare
+        suspendisse sed. Gravida neque convallis a cras semper auctor neque vitae. Nibh venenatis cras
+        sed felis eget. Amet mattis vulputate enim nulla. Nullam vehicula ipsum a arcu cursus. Aliquam
+        ultrices sagittis orci a scelerisque. Dolor sit amet consectetur adipiscing elit duis tristique
+        sollicitudin. Eget duis at tellus at urna condimentum. Turpis egestas sed tempus urna et pharetra
+        pharetra massa. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Ullamcorper velit
+        sed ullamcorper morbi tincidunt ornare massa eget. Ut tellus elementum sagittis vitae et.</P>
+    </section>
   </main>
   <footer>
     <picture class="hcogps">
@@ -153,4 +144,5 @@
     </div>
   </footer>
 </body>
+
 </html>

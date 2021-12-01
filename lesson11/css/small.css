@@ -115,14 +115,23 @@ h1, h2, p {
 }
 .stats {
 	position: absolute;
-    display: block;
-	top: 60px;
-	right: 5px;
+	top: 30px;
+	right: 20px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
+}
+.stats h3{
+    text-decoration: underline;
+}
+.statsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.statsgrid span {
+padding-bottom: 10px;
 }
 .historyhco{
     display: block;
