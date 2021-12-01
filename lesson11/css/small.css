@@ -20,7 +20,6 @@ header img{
 main{
     display: block;
 	margin: 0 auto;
-   
 }
 main h2{
     color: black;
@@ -33,6 +32,43 @@ main h2{
 .navigation li{
     display: none;
 }
+/*TemperatureBox*/
+.tabledays{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px 0 50px;
+    padding: 0% 15%;
+    height: 150px;
+    }
+    .weatherdays{
+        flex: 1 1 auto;
+        border-bottom:  1px solid rgb(13, 13, 99);
+        border-left:  0.5px solid rgb(13, 13, 99);
+        border-right:  0.5px solid rgb(13, 13, 99);
+    }
+    .weekday {
+        display: block;
+        padding: 5px;
+        background-color: rgb(13, 13, 99);
+        color: #fff;
+        border-bottom: 1px solid rgba(223, 144, 120, 0.425);
+        border-top: 1px solid rgba(223, 144, 120, 0.425);
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .tabledays img{
+        width:70px;
+        display:block;
+        margin:auto;
+    }
+    .tempe{
+        display: block;
+        text-align: center;
+        padding: 8px;
+    }
+/*TemperatureBox*/
+
 /*Gallery*/
 .wgallery{
     padding:20px;
