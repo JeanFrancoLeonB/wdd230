@@ -6,6 +6,10 @@
         color: rgb(41, 173, 162);
         font-size: 1.4rem;
     }
+    .tabledays{
+      margin: 25px 0 50px;
+      padding: 0% 15%;
+      }
     div.jsonsections {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

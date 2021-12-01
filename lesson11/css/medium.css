@@ -64,6 +64,10 @@
         color: #fff;
         text-align: center;
     }
+    .tabledays{
+        margin: 25px 0 50px;
+        padding: 0% 12%;
+        }
     .jsonsections  section {
         max-width: 600px;
         margin: .5rem auto;
