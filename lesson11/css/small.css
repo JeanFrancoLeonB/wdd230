@@ -334,9 +334,7 @@ h2{
     color: #fff;
     font-size: 1rem;
   }
-  label p, div p{
-    padding: 0px 0 13px;
-  }
+
   form label.top input, form label.top select, form label.top textarea {
     display: block;
     font-size: 1rem;
@@ -346,6 +344,7 @@ h2{
     color: #011C26;
     box-sizing: border-box;
     width: 100%;
+    margin-top: 10px;
   }
   form label.danger {
     display: block;

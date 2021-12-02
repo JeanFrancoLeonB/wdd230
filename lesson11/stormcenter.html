@@ -48,15 +48,15 @@
         <form method="get" action="thanks.html">
             <fieldset>
               <legend>Contact Information</legend>
-              <label class="top"> <p>Full Name</p> <input type="text" name="fullname" required pattern="[A-Za-z]"></label>
-              <label class="top"> <p>Email </p><input type="email" name="email" placeholder="example@gmail.com"></label>
-              <label class="top"> <p>Phone </p><input required type="tel" name="phone" placeholder="555-555555"></label>
-              <label class="top"> <p>Zip Code</p> <input required type="number" name="number" ></label>
+              <label class="top"> Full Name <input type="text" name="fullname" required pattern="[A-Za-z]"></label>
+              <label class="top"> Email <input type="email" name="email" placeholder="example@gmail.com"></label>
+              <label class="top"> Phone <input required type="tel" name="phone" placeholder="555-555555"></label>
+              <label class="top"> Zip Code<input required type="number" name="number" ></label>
             </fieldset>
             <fieldset>
               <legend>Storm Information</legend>
-              <label class="top"><p>When the storm occur?</p> <input type="date" name="datestorm"> </label>
-              <label class="top"><p>Storm type </p><input list="typeofstorm" name="stormtype">
+              <label class="top">When the storm occur? <input type="date" name="datestorm"> </label>
+              <label class="top">Storm type <input list="typeofstorm" name="stormtype">
                 <datalist id="typeofstorm">
                   <option value="Flash"></option>
                   <option value="Flood"></option>
@@ -82,7 +82,7 @@
                   <option value="10">
                 </datalist>
               </label>
-              <label class="top"><p>Storm Region</p>
+              <label class="top">Storm Region
                 <select name="subject">
                   <option value="" disabled="" selected="">Select Region &#9662;</option>
                   <option value="preston">Preston</option>
@@ -96,7 +96,7 @@
                 <label class="danger"><input type="radio" name="danger" value="maybe"> Maybe</label>
                 <label class="danger"><input type="radio" name="danger" value="no"> No</label>
               </div>
-              <label class="top"><p>Comments</p>
+              <label class="top">Comments
                 <textarea name="comment" rows="5"></textarea></label>
             </fieldset>
             <input type="submit" value="Report My Storm" class="submitbutton">
