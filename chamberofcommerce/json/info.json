@@ -1,0 +1,60 @@
+{
+    "organizations": [
+      {
+        "name": "Productos Lacteos - Gloria",
+        "phone": "(044) 232731",
+        "address": "Ex. Fundo Larrea Pje. Nicolini No. 1 Zona Industrial Moche - Trujillo",
+        "website": "https://www.gloria.com.pe/",
+        "logo": "gloria.png"
+      },
+      {
+        "name": "Productos Lacteos - Laive",
+        "phone": "(044) 6187600",
+        "address": "Av. Nicolás de Piérola 15001 - Trujillo ",
+        "website": "https://laive.pe/",
+        "logo": "laive.png"
+      },
+      {
+        "name": "Metales Fumosac",
+        "phone": "998 375 689",
+        "address": "Jr. Francisco Bolognesi 353, San Martín de Porres",
+        "website": "http://fumosac.com.pe/",
+        "logo": "fumosac.png"
+      },
+      {
+        "name": "Distribuidora Arenera Jaen",
+        "phone": "(044) 251516",
+        "address": "Av. América Sur N° 1344 - Urbanización Palermo",
+        "website": "http://www.arenerajaen.com.pe//web/secciones/index.php",
+        "logo": "arenerajaen.png"
+      },
+      {
+        "name": "ITTSA BUS",
+        "phone": "(044) 284644",
+        "address": "Av. Juan Pablo II, Trujillo 13011",
+        "website": "https://www.ittsabus.com/",
+        "logo": "ittsa.png"
+      },
+      {
+        "name": "Diario La Industria",
+        "phone": "(044) 295757",
+        "address": "Jr. Gamarra 443 - Centro Civico Trujillo",
+        "website": "http://www.laindustria.pe/",
+        "logo": "laindustria.png"
+      },
+      {
+        "name": "Restaurant El Rincon de Vallejo",
+        "phone": "968115719",
+        "address": "Jr. Orbegoso 303 - Centro Civico Trujillo",
+        "website": "https://www.wincofoods.com",
+        "logo": "elrincondevallejo.png"
+      },
+      {
+        "name": "Hotel Casa Andina",
+        "phone": "(0800) 71899",
+        "address": "Jirón Diego De Almagro 586, Trujillo",
+        "website": "https://www.casa-andina.com/es/destinos/trujillo",
+        "logo": "casaandina.png"
+      }
+    ]
+  }
