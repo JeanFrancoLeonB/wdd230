@@ -98,4 +98,7 @@
           font-size: 1.2em;
           padding: 5px 0 20px;
       }
+      .workers-grid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
