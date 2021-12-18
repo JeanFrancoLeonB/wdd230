@@ -1,0 +1,101 @@
+@media only screen and (min-width :  37.5em){
+    .navigation {
+        background-color: #111111;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: 8px;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+	}
+    .navigation a {
+        text-align: center;
+    }
+    .historyhco{
+        padding: 3% 18%;
+      
+    }
+    .historyhco h2{
+        padding: 10px 0 10px 0;
+    }
+    .historyhco p{
+        text-align: left;
+    }
+    .historyhco h2:hover {
+        color: #871426;
+    }
+ 
+    .historyhco img{
+        float: right;
+        border-top: 50px;
+		margin: 0.75rem;
+		margin-right: 0;
+        width: auto;
+        border-radius:  10px;
+        box-shadow: 4px 4px 0px 0px #00000066;
+    }
+    .days{
+        display: block;
+    }
+    .hcogps{
+        display: block;
+    }
+    .hcogps img{
+        width: 400px;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .days{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .days h3{
+        color: #fff;
+        text-align: center;
+    }
+    .tabledays{
+        margin: 25px 0 50px;
+        padding: 0% 12%;
+        }
+    .jsonsections  section {
+        max-width: 600px;
+        margin: .5rem auto;
+        background-color: #871426;
+        color: rgb(243, 243, 245);
+        border-radius: 12px;
+        display: flex;
+        padding: 0.5rem 1.5rem;
+        text-align: center;
+    }
+    .jsonsections section img {
+        width: 300px; 
+    }
+    .jsonsections section div {
+        width: 300px; 
+    }
+    .jsonsections section:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+      .container {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    form {
+        max-width: 460px;
+      }
+      legend{
+          font-size: 1.2em;
+          padding: 5px 0 20px;
+      }
+}

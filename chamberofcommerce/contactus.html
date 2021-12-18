@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trujillo, La Libertad Chamber of Commerce: Contact Us">
+    <title>La Libertad Chamber of Commerce</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/currentday.js"></script>
+    <script defer src="js/togglemenu.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/webfont.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="La Libertad Chamber of Commerce Logo">
+        <div>
+            <h1>La Libertad</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="home.html" >HOME</a></li>
+            <li><a href="lalibertad.html">LA LIBERTAD</a></li>
+            <li><a href="joinus.html">JOIN US</a></li>
+            <li><a href="directory.html">DIRECTORY</a></li>
+            <li><a href="contactus.html"class="active">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="herodiv">
+            <img class="heroimg" src="images/maps.jpg" alt="Ubication Chamber of Commerce" />
+        </div>
+        <form method="get" action="contactus.html">
+            <fieldset>
+                <legend>Contact Chambers of Commerce La Libertad</legend>
+                <label class="top" for="fname"> Full Name* <input type="text" id="fname" name="fullname"
+                        placeholder="First Name - Last Name" pattern="[\sA-Za-z]{5,}" required></label>
+                <label class="top"> Phone <input required type="tel" name="phone" placeholder="555-555555"></label>
+                <label class="top" for="email"> Email* <input type="email" id="email" name="email"
+                        placeholder="....@gmail.com" required></label>
+                <label class="top">Comments
+                    <textarea name="comment" rows="5"></textarea></label>
+                <input type="submit" value="Ask Us !" class="submitBtn">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <picture class="hcogps">
+            <img src="images/maps.jpg" alt="Chamber of Commerce Ubication">
+        </picture>
+        <section class="contactinfo">
+            <h3>Contact Info</h3>
+            <img src="images/ubication.png" alt="ubication icon">
+            <p>Jirón Junin 454 <br>Centro Cívico La Libertad-Trujillo</p>
+            <img src="images/phone.png" alt="mobile phone icon">
+            <p>Whattsapp: (5144) - 943777576</p>
+            <img src="images/email.jpg" alt="email icon">
+            <p>comunicaciones@camaratru.org.pe</p>
+            <div class="links">
+                <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png"
+                        alt="facebook icon"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.png"
+                        alt="instagram icon"></a>
+                <a target="_blank" href="https://www.twitter.com//"><img src="images/twitter.png"
+                        alt="twitter icon"></a>
+            </div>
+        </section>
+        <div class="data">
+            &copy; <span id="copyrightyear"></span>
+            La Libertad - Chamber of Commerce | Trujillo - Perú | Franco León
+            <div><span id="lastupdated"></span></div>
+            <div><span id="today"></span></div>
+        </div>
+</body>
+
+</html>
