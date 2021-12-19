@@ -23,6 +23,7 @@ main{
 	margin: 0 auto;
 }
 main h2{
+    padding: 0.5em 1em 0.5em 1em;
     color: black;
 }
 .navigation {
@@ -349,7 +350,7 @@ h2{
   }
   form label.danger {
     display: block;
-    padding: 10px 0 5px;
+    padding: 20px 0 5px;
     color: white;
   }
   form input.submitbutton {
@@ -400,6 +401,50 @@ h2{
 }
 .workers-grid div p{
     padding: 5px 0 5px;
-
 }
+.membership-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+    padding: 25px 100px 25px 100px;
+    color: white;
+    margin: 0;
+}
+.membership{
+    background-color:  #111111;
+}
+.membership h3{
+    background-color:#871426;
+    padding: 0.5em 1em 0.5em 1em;
+}
+.membership ul li{
+   text-align: left;
+   padding: 0.5em 1em 0.5em 1em;
+}
+.trujillo-grid{
+    display: grid;
+    padding: 3% 18%;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items:center;
+    justify-items: center;
+    text-align: left;
+}
+.trujillo-grid h3{
+    font-weight: bold;
+    color:#871426;
+}
+.trujillo-grid img{
+    box-shadow: 2px 1px 1px 0.5px #333;
+    border-radius: 5px;;
+}
+.trujillo-grid img:hover{
+box-shadow: 0 0 5px rgb(41, 42, 41);
+}
+.trujillo-grid p{
+    padding: 0.5em 1em 0.5em 1em;
+}
+
      /*Stormcenter*/

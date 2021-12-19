@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trujillo, La Libertad Chamber of Commerce: Join Us">
+    <title>La Libertad Chamber of Commerce</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/currentday.js"></script>
+    <script defer src="js/togglemenu.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script defer src="js/webfont.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="La Libertad Chamber of Commerce Logo">
+        <div>
+            <h1>La Libertad</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+    </header>
+    <nav class="clearfix">
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="lalibertad.html">LA LIBERTAD</a></li>
+            <li><a href="joinus.html" class="active">JOIN US</a></li>
+            <li><a href="directory.html">DIRECTORY</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="membership-grid">
+            <section class="membership">
+                <h3>Categoría A ($800)</h3>
+                <ul>
+                    <li>Diplomatura: 12 Bonos de S/800</li>
+                    <li>Programa de Alta especialización: 12 Bonos de S/500</li>
+                    <li>Curso Especializado: 12 Bonos de S/100</li>
+                    <li>Bono de Capacitación: S/50 por Inscripción (6 Bonos Ahorro S/300)</li>
+                    <li>Encarte Web (Espacio Interior Web)</li>
+                </ul>
+            </section>
+            <section class="membership">
+                <h3>Categoría A-1 ($600)</h3>
+                <ul>
+                    <li>Diplomatura: 8 Bonos de S/800</li>
+                    <li>Programa de Alta especialización: 8 Bonos de S/500</li>
+                    <li>Curso Especializado: 8 Bonos de S/100</li>
+                    <li>Bono de Capacitación: S/50 por Inscripción (3 Bonos Ahorro S/150)</li>
+                </ul>
+            </section>
+            <section class="membership">
+                <h3>Categoría A-2 ($400)</h3>
+                <ul>
+                    <li>Diplomatura: 6 Bonos de S/800</li>
+                    <li>Programa de Alta especialización: 6 Bonos de S/500</li>
+                    <li>Curso Especializado: 6 Bonos de S/100</li>
+                </ul>
+            </section>
+        </div>
+        <form method="get" action="joinus.html">
+            <fieldset>
+                <legend>Membership Application</legend>
+                <label class="top" for="fname"> Full Name* <input type="text" id="fname" name="fullname"
+                        placeholder="First Name - Last Name" pattern="[\sA-Za-z]{5,}" required></label>
+                <label class="top"> Phone <input required type="tel" name="phone" placeholder="555-555555"></label>
+                <label class="top" for="email"> Email* <input type="email" id="email" name="email"
+                        placeholder="....@gmail.com" required></label>
+                <label class="top">Business Name*<input type="text" name="businessname" placeholder="LaLibertad SAC"
+                        pattern="[A-Za-z].{2,}" required></label>
+                <label class="top">Business RUC<input type="text" name="businessruc" placeholder="20000000000"
+                        pattern="[0-9]{11}" required></label>
+                <label class="top">Business Address<input type="text" name="businessaddress"
+                        placeholder="Jirón Junin 454 - Trujillo" pattern="[A-Za-z1-9].{5,}"></label>
+                <label class="top">Business Description<input type="text" name="businessdescription"
+                        pattern="[A-Za-z1-9].{5,}"></label>
+                <div>
+                    <p>Membership Options</p>
+                    <label class="danger"><input type="radio" name="danger" value="Categoría A ($800)">
+                        Categoría A
+                        ($800)</label>
+                    <label class="danger"><input type="radio" name="danger" value="Categoría A-1 ($600)">
+                        Categoría A-1
+                        ($600)</label>
+                    <label class="danger"><input type="radio" name="danger" value="Categoría A-2 ($400)">
+                        Categoría A-2
+                        ($400)</label>
+                </div>
+                <input type="submit" value="Join Us !" class="submitBtn">
+
+            </fieldset>
+        </form>
+
+
+
+    </main>
+    <footer>
+        <picture class="hcogps">
+            <img src="images/maps.jpg" alt="Chamber of Commerce Ubication">
+        </picture>
+        <section class="contactinfo">
+            <h3>Contact Info</h3>
+            <img src="images/ubication.png" alt="ubication icon">
+            <p>Jirón Junin 454 <br>Centro Cívico La Libertad-Trujillo</p>
+            <img src="images/phone.png" alt="mobile phone icon">
+            <p>Whattsapp: (5144) - 943777576</p>
+            <img src="images/email.jpg" alt="email icon">
+            <p>comunicaciones@camaratru.org.pe</p>
+            <div class="links">
+                <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png"
+                        alt="facebook icon"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="images/instagram.png"
+                        alt="instagram icon"></a>
+                <a target="_blank" href="https://www.twitter.com//"><img src="images/twitter.png"
+                        alt="twitter icon"></a>
+            </div>
+        </section>
+        <div class="data">
+            &copy; <span id="copyrightyear"></span>
+            La Libertad - Chamber of Commerce | Trujillo - Perú | Franco León
+            <div><span id="lastupdated"></span></div>
+            <div><span id="today"></span></div>
+        </div>
+</body>
+
+</html>
