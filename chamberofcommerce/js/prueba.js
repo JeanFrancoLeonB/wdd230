@@ -1,4 +1,3 @@
-
 document.querySelector('.gridbutton').addEventListener('click', () => {
     document.querySelector('.directory').classList.add('dirctorygrid');
     document.querySelector('.directory').classList.remove('directorylist');
@@ -11,16 +10,13 @@ document.querySelector('.listbutton').addEventListener('click', () => {
 
 const directory = 'json/info.json';
 
-      fetch(directory)
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (jsonObject) {
-        const organizations = jsonObject['organizations'];
-        for (let i = 0; i < organizations.length; i++ ) {
+fetch(directory).then((response) => response.json()).then((jsonObject) =>
+ {
+  
+    Object.keys(jsonObject.organizations).forEach(i => {
+        console.log(jsonObject.organizations[i]);
         let div = document.createElement('div');
         div.classList.add('directorydiv');
-        
 
         let name = document.createElement('h3');
 
@@ -29,12 +25,17 @@ const directory = 'json/info.json';
             logo.classList.add('directorylogo');
             logo.setAttribute('src', `images/${jsonObject.organizations[i].logo}`);
             logo.setAttribute('alt', `${jsonObject.organizations[i].name} logo`);
+            
+           
+
             div.appendChild(logo);
         } else {
             let placementdiv = document.createElement('div');
             placementdiv.classList.add('directorylogo');
+
             div.appendChild(placementdiv);
         }
+        
         let address = document.createElement('p');
         address.textContent = jsonObject.organizations[i].address;
 
@@ -56,5 +57,5 @@ const directory = 'json/info.json';
         div.appendChild(phone);
 
         document.querySelector('div.directory').appendChild(div);
-    }
+    })
 });
