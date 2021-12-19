@@ -17,6 +17,8 @@
         rel="stylesheet">
     <script defer src="js/dates.js"></script>
     <script defer src="js/currentday.js"></script>
+    <script defer src="js/weather.js"></script>
+    <script defer src="js/windchill.js"></script>
     <script defer src="js/togglemenu.js"></script>
 
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -74,6 +76,45 @@
                 el bien de nuestra ciudad, de nuestra región y de nuestro país. La creación de puestos de trabajo
                 es uno de los valores más importantes que se deben considerar dentro de las tareas o el rol empresarial. <br>
         </section>
+
+        <h2 class="htablesays">Temperatura en La Libertad </h2>
+        <div class="tabledays">
+            <div class="weatherdays">
+              <span class="weekday" id="weekday1"></span>
+              <img src="#" alt="#" id="icon1">
+              <span class="tempe" id="ftemp1">°F</span>
+            </div>
+            <div class="weatherdays">
+              <span class="weekday" id="weekday2"></span>
+              <img src="#" alt="#" id="icon2">
+              <span class="tempe" id="ftemp2">°F</span>
+            </div>
+            <div class="weatherdays">
+              <span class="weekday" id="weekday3"></span>
+              <img src="#" alt="#" id="icon3">
+              <span class="tempe" id="ftemp3">°F</span>
+            </div>
+            <div class="weatherdays">
+              <span class="weekday" id="weekday4"></span>
+              <img src="#" alt="#" id="icon4">
+              <span class="tempe" id="ftemp4">°F</span>
+            </div>
+            <div class="weatherdays">
+              <span class="weekday" id="weekday5"></span>
+             <img src="#" alt="#" id="icon5">
+              <span class="tempe" id="ftemp5">°F</span>
+            </div>
+          </div>
+        </div>
+        <section class="stats">
+            <h2 class="htablesays">Weather Summary</h2>
+          <div class="statsgrid">
+            <p>Conditions:</p><span id="condition"></span>
+            <p>Temperature:</p> <span> <span id="current-temp"></span>°F</span>
+                <p>Humidity:</p> <span> <span id="humidity"></span>%</span>
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
         <picture class="hcogps">

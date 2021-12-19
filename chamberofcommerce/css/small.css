@@ -169,11 +169,10 @@ h1, h2, p {
     width: 99%;
     box-shadow: 2px 1px 1px 0.5px #333;
 }
+.htablesays{
+    text-decoration: underline;
+}
 .stats {
-	position: absolute;
-	top: 30px;
-	right: 20px;
-	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
@@ -185,10 +184,22 @@ h1, h2, p {
 .statsgrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 3% 38%;
+    
 }
 .statsgrid span {
-padding-bottom: 10px;
+padding: 10px;
+border: 1px solid #000;
 }
+.statsgrid p {
+    background-color:#871426;
+    border: 1px solid #000;
+    padding: 10px;
+    color:white;
+    }
+.statsgrid span span {
+    border: none;
+    }
 .historyhco{
     display: block;
     box-shadow: 20px 0 30px 0 teal;

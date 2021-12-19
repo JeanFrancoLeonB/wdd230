@@ -1,15 +1,17 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=730c7eedd7a467502500821344c0b4c2&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=730c7eedd7a467502500821344c0b4c2&units=imperial";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         document.getElementById('condition').textContent = jsObject.weather[0].description;
         document.getElementById('current-temp').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('wind-speed').textContent = jsObject.wind.speed.toFixed(0);
+
+
+            /*document.getElementById('wind-speed').textContent = jsObject.wind.speed.toFixed(0);*/
         
-        const temp = parseFloat(document.querySelector('#current-temp').textContent);
-        const wind = parseFloat(document.querySelector('#wind-speed').textContent);
-        let wchill;
+       /* const temp = parseFloat(document.querySelector('#current-temp').textContent);
+       const wind = parseFloat(document.querySelector('#wind-speed').textContent);*/
+        /*let wchill;
 
         if (temp <= 50 && wind > 3) {
         wchill = windChill(temp, wind);
@@ -27,5 +29,5 @@ fetch(apiURL)
         }
 
         document.querySelector('.windchill').innerHTML = `${wchill}°F`;
-        
+        */
     });
