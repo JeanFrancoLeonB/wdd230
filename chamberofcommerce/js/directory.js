@@ -20,10 +20,7 @@ const directory = 'json/info.json';
         for (let i = 0; i < organizations.length; i++ ) {
         let div = document.createElement('div');
         div.classList.add('directorydiv');
-        
-
         let name = document.createElement('h3');
-
         if (jsonObject.organizations[i].logo != "") {
             let logo = document.createElement('img');
             logo.classList.add('directorylogo');
@@ -31,9 +28,9 @@ const directory = 'json/info.json';
             logo.setAttribute('alt', `${jsonObject.organizations[i].name} logo`);
             div.appendChild(logo);
         } else {
-            let placementdiv = document.createElement('div');
-            placementdiv.classList.add('directorylogo');
-            div.appendChild(placementdiv);
+            let creatediv = document.createElement('div');
+            creatediv.classList.add('directorylogo');
+            div.appendChild(creatediv);
         }
         let address = document.createElement('p');
         address.textContent = jsonObject.organizations[i].address;
