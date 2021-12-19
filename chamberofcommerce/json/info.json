@@ -8,6 +8,13 @@
         "logo": "gloria.png"
       },
       {
+        "name": "Metales Fumosac",
+        "phone": "998 375 689",
+        "address": "Jr. Francisco Bolognesi 353, San Martín de Porres",
+        "website": "http://fumosac.com.pe/",
+        "logo": "fumosac.jpg"
+      },
+      {
         "name": "Productos Lacteos - Laive",
         "phone": "(044) 6187600",
         "address": "Av. Nicolás de Piérola 15001 - Trujillo ",
@@ -15,18 +22,11 @@
         "logo": "laive.jpg"
       },
       {
-        "name": "Metales Fumosac",
-        "phone": "998 375 689",
-        "address": "Jr. Francisco Bolognesi 353, San Martín de Porres",
-        "website": "http://fumosac.com.pe/",
-        "logo": "fumosac.png"
-      },
-      {
         "name": "Distribuidora Arenera Jaen",
         "phone": "(044) 251516",
         "address": "Av. América Sur N° 1344 - Urbanización Palermo",
         "website": "http://www.arenerajaen.com.pe//web/secciones/index.php",
-        "logo": "arenera.png"
+        "logo": "arenera.jpg"
       },
       {
         "name": "ITTSA BUS",
@@ -40,13 +40,13 @@
         "phone": "(044) 295757",
         "address": "Jr. Gamarra 443 - Centro Civico Trujillo",
         "website": "http://www.laindustria.pe/",
-        "logo": "laindustria.png"
+        "logo": "laindustria.jpg"
       },
       {
         "name": "Restaurant El Rincon de Vallejo",
         "phone": "968115719",
         "address": "Jr. Orbegoso 303 - Centro Civico Trujillo",
-        "website": "https://www.wincofoods.com",
+        "website": "http://www.rincondevallejo.pe/",
         "logo": "rinconvallejo.jpg"
       },
       {
@@ -54,7 +54,7 @@
         "phone": "(0800) 71899",
         "address": "Jirón Diego De Almagro 586, Trujillo",
         "website": "https://www.casa-andina.com/es/destinos/trujillo",
-        "logo": "casaandina.png"
+        "logo": "casaandina.jpg"
       }
     ]
   }

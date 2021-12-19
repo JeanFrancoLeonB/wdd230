@@ -79,6 +79,10 @@
     .membership-grid section:nth-child(3) {
 		grid-column: span 1;
 	}
-   
-   
+    .organization-div {
+        padding: 0 1rem;
+    }
+    .grid-layout{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

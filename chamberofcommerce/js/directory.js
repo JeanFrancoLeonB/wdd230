@@ -1,21 +1,18 @@
-//#region Responsive Layout Buttons
+
 document.querySelector('.grid-button').addEventListener('click', () => {
-    document.querySelector('.directory-info').classList.add('grid-layout');
-    document.querySelector('.directory-info').classList.remove('list-layout');
+    document.querySelector('.directory').classList.add('grid-layout');
+    document.querySelector('.directory').classList.remove('list-layout');
 }, false);
 
 document.querySelector('.list-button').addEventListener('click', () => {
-    document.querySelector('.directory-info').classList.add('list-layout');
-    document.querySelector('.directory-info').classList.remove('grid-layout');
+    document.querySelector('.directory').classList.add('list-layout');
+    document.querySelector('.directory').classList.remove('grid-layout');
 }, false);
-//#endregion
 
-//#region Create Directory
 const directory = 'json/info.json';
 
 fetch(directory).then((response) => response.json()).then((jsonObject) => {
-
-    //#region Organizations   
+  
     Object.keys(jsonObject.organizations).forEach(i => {
         console.log(jsonObject.organizations[i]);
         let div = document.createElement('div');
@@ -28,8 +25,8 @@ fetch(directory).then((response) => response.json()).then((jsonObject) => {
             logo.classList.add('directory-logo');
             logo.setAttribute('src', `images/${jsonObject.organizations[i].logo}`);
             logo.setAttribute('alt', `${jsonObject.organizations[i].name} logo`);
-            logo.setAttribute('height', '65');
-            logo.setAttribute('width', '65');
+            
+           
 
             div.appendChild(logo);
         } else {
@@ -59,6 +56,6 @@ fetch(directory).then((response) => response.json()).then((jsonObject) => {
         div.appendChild(address);
         div.appendChild(phone);
 
-        document.querySelector('div.directory-info').appendChild(div);
+        document.querySelector('div.directory').appendChild(div);
     })
 });

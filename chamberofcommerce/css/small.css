@@ -21,6 +21,7 @@ header img{
 main{
     display: block;
 	margin: 0 auto;
+    text-align: center;
 }
 main h2{
     padding: 0.5em 1em 0.5em 1em;
@@ -447,4 +448,30 @@ box-shadow: 0 0 5px rgb(41, 42, 41);
     padding: 0.5em 1em 0.5em 1em;
 }
 
+.directory{
+    padding: 3% 8%;
+}
+.organization-div{
+    padding: 0;
+     font-size: 1.5rem;
+     border: 2px solid #871426;
+}
+.list-layout{
+    text-align: left;
+}
+.list-layout p, .list-layout img{
+    color:#111;
+    padding: 0.5em 0em 0.5em 0em;
+ }
+.grid-layout{
+    text-align: center;
+    padding: 3% 18%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+}
+ .grid-layout p, .grid-layout img{
+   color:#111;
+   padding: 1em 0.2em 0.2em 0.2em;
+}
      /*Stormcenter*/
