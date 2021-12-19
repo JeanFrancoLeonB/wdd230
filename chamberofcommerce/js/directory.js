@@ -1,28 +1,29 @@
 
-document.querySelector('.grid-button').addEventListener('click', () => {
-    document.querySelector('.directory').classList.add('grid-layout');
-    document.querySelector('.directory').classList.remove('list-layout');
+document.querySelector('.gridbutton').addEventListener('click', () => {
+    document.querySelector('.directory').classList.add('dirctorygrid');
+    document.querySelector('.directory').classList.remove('directorylist');
 }, false);
 
-document.querySelector('.list-button').addEventListener('click', () => {
-    document.querySelector('.directory').classList.add('list-layout');
-    document.querySelector('.directory').classList.remove('grid-layout');
+document.querySelector('.listbutton').addEventListener('click', () => {
+    document.querySelector('.directory').classList.add('directorylist');
+    document.querySelector('.directory').classList.remove('dirctorygrid');
 }, false);
 
 const directory = 'json/info.json';
 
-fetch(directory).then((response) => response.json()).then((jsonObject) => {
+fetch(directory).then((response) => response.json()).then((jsonObject) =>
+ {
   
     Object.keys(jsonObject.organizations).forEach(i => {
         console.log(jsonObject.organizations[i]);
         let div = document.createElement('div');
-        div.classList.add('organization-div');
+        div.classList.add('directorydiv');
 
         let name = document.createElement('h3');
 
         if (jsonObject.organizations[i].logo != "") {
             let logo = document.createElement('img');
-            logo.classList.add('directory-logo');
+            logo.classList.add('directorylogo');
             logo.setAttribute('src', `images/${jsonObject.organizations[i].logo}`);
             logo.setAttribute('alt', `${jsonObject.organizations[i].name} logo`);
             
@@ -31,7 +32,7 @@ fetch(directory).then((response) => response.json()).then((jsonObject) => {
             div.appendChild(logo);
         } else {
             let placementdiv = document.createElement('div');
-            placementdiv.classList.add('directory-logo');
+            placementdiv.classList.add('directorylogo');
 
             div.appendChild(placementdiv);
         }

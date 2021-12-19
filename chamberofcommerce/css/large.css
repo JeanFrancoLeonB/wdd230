@@ -79,10 +79,10 @@
     .membership-grid section:nth-child(3) {
 		grid-column: span 1;
 	}
-    .organization-div {
+    .directorydiv {
         padding: 0 1rem;
     }
-    .grid-layout{
+    .dirctorygrid{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

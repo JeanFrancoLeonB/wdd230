@@ -110,10 +110,10 @@
     .trujillo-grid{
         grid-template-columns: 1fr 1fr;
     }
-    .organization-div {
+    .directorydiv {
         grid-template-columns: 0.5fr 2fr 1.5fr 1fr;
     }
-    .grid-layout{
+    .dirctorygrid{
         grid-template-columns: 1fr 1fr;
     }
 }
