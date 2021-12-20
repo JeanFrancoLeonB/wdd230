@@ -116,4 +116,14 @@
     .dirctorygrid{
         grid-template-columns: 1fr 1fr;
     }
+    .weatherevent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .upcomingevents{
+        padding: 0;
+    }
+    .stats {
+        padding:1.5rem;
+    }
 }
