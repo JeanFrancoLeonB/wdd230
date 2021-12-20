@@ -85,4 +85,7 @@
     .dirctorygrid{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .homebutton a{
+      font-size: 1em;
+  }
 }

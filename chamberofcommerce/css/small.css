@@ -513,5 +513,24 @@ box-shadow: 0 0 5px rgb(41, 42, 41);
 .weatherevent{
     display: block;
 }
-
+.homebutton{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    text-align: left;
+}
+.homebutton a{
+    color: white;
+    background-color: rgb(41, 42, 41);
+    margin: 0;
+    text-decoration: none;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 0.4em;
+}
+.homebutton a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
      /*Stormcenter*/

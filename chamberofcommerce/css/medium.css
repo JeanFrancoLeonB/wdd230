@@ -126,4 +126,7 @@
     .stats {
         padding:1.5rem;
     }
+    .homebutton a{
+        font-size: 0.7em;
+    }
 }
