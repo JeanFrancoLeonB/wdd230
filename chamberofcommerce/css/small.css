@@ -353,6 +353,7 @@ h2{
     margin-bottom: 20px;
     color: #fff;
     font-size: 1rem;
+    text-align: left;
   }
 
   form label.top input, form label.top select, form label.top textarea {
